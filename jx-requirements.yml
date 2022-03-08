@@ -20,7 +20,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "192.168.56.2"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
@@ -31,3 +31,4 @@ spec:
   secretStorage: local
   vault: {}
   webhook: lighthouse
+
