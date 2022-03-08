@@ -31,4 +31,3 @@ spec:
   secretStorage: local
   vault: {}
   webhook: lighthouse
-
