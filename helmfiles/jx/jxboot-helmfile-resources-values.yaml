@@ -1,4 +1,4 @@
 ingress:
   customHosts:
-    hook: "http://7129-117-251-7-24.ngrok.io"
+    hook: "http://localhost:80"
 
