@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: golang-jx3
     - name: jenkins-x-test
     - name: jx3-golang-demo
     scheduler: in-repo
