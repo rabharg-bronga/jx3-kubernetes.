@@ -16,7 +16,11 @@ releases:
   - jx-values.yaml
   - jxboot-helmfile-resources-values.yaml
 - chart: jxgh/lighthouse-webui-plugin
+  version: 0.1.7
   name: lighthouse-webui-plugin
+  values:
+  - ../../versionStream/charts/jxgh/lighthouse-webui-plugin/values.yaml.gotmpl
+  - jx-values.yaml
 - chart: jxgh/jenkins-x-crds
   version: 3.0.12
   name: jenkins-x-crds
